@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upcoming Events</title>
+    <style>
+        /* CSS styles for the app */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        .event-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .event-container h2 {
+            color: #4d4d4d;
+            font-size: 24px;
+            margin-top: 0;
+        }
+        .event-container p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .event-container .date {
+            background-color: #333;
+            border-radius: 5px;
+            color: #fff;
+            display: inline-block;
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+        .event-container .image-container {
+            float: left;
+            margin-right: 20px;
+            max-height: 200px;
+            max-width: 200px;
+            overflow: hidden;
+        }
+        .event-container .image-container img {
+            display: block;
+            height: auto;
+            max-height: 100%;
+            max-width: 100%;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upcoming Events</h1>
+
+    <!-- Event 1 -->
+    <div class="event-container">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/200x200" alt="Event Image">
+        </div>
+        <div class="event-details">
+            <h2>Event Title 1</h2>
+            <p>Event Description 1</p>
+            <p><span class="date">Date: 1 January 2024</span></p>
+        </div>
+    </div>
+
+    <!-- Event 2 -->
+    <div class="event-container">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/200x200" alt="Event Image">
+        </div>
+        <div class="event-details">
+            <h2>Event Title 2</h2>
+            <p>Event Description 2</p>
+            <p><span class="date">Date: 15 February 2024</span></p>
+        </div>
+    </div>
+
+    <!-- Event 3 -->
+    <div class="event-container">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/200x200" alt="Event Image">
+        </div>
+        <div class="event-details">
+            <h2>Event Title 3</h2>
+            <p>Event Description 3</p>
+            <p><span class="date">Date: 30 March 2024</span></p>
+        </div>
+    </div>
+
+    <!-- Event 4 -->
+    <div class="event-container">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/200x200" alt="Event Image">
+        </div>
+        <div class="event-details">
+            <h2>Event Title 4</h2>
+            <p>Event Description 4</p>
+            <p><span class="date">Date: 10 April 2024</span></p>
+        </div>
+    </div><!-- Event 5 -->
+<div class="event-container">
+    <div class="image-container">
+        <img src="https://via.placeholder.com/200x200" alt="Event Image">
+    </div>
+    <div class="event-details">
+        <h2>Event Title 5</h2>
+        <p>Event Description 5</p>
+        <p><span class="date">Date: 1 May 2024</span></p>
+    </div>
+</div>
+
+<!-- Event 6 -->
+<div class="event-container">
+    <div class="image-container">
+        <img src="https://via.placeholder.com/200x200" alt="Event Image">
+    </div>
+    <div class="event-details">
+        <h2>Event Title 6</h2>
+        <p>Event Description 6</p>
+        <p><span class="date">Date: 15 June 2024</span></p>
+    </div>
+</div>
+</body>
+</html>
+
